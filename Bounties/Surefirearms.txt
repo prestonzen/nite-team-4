@@ -1,0 +1,65 @@
+Goal: Look for filename of blackmail
+surefirearms.com
+
+VULNS:
+administration.surefirearms.com
+
+Check for active projects?
+
+For RnD Network
+
+SET:
+surefirearms.com
+PDF
+Lead Researcher (Nicolai Lassen) IT Support, Subject Line: RnD SERVER ACCESS
+
+Rogue VPN
+
+VULN rnd-ftp.surefirearms.com
+UDP
+Content Spoofing
+
+nicolai.lassen ? 
+n.lassen
+
+Wifi Method 
+
+RnD Director, Douglas Carvalho, is involved in project NIGHTSHADE on Mondays. DND
+
+Do Not Disturb
+
+Control + T = Opens VPN Connections
+
+Security Network
+
+login-sec.surefirearms.com
+Oracle App Server
+TCP/IP
+SOAP
+
+Wifi into Security
+Matilda Tuesdays 9am - Noon 
+
+Operation Wallfly results
+
+In MAtilda's Phone
+
+Madd's Password = Not Easy to crack (Maddison Lawson)
+
+Matilda's User: matilda.creswell
+Matilda's Password:
+$ Only English word with 3 consecuative double letters1984$
+
+
+$bookkeeper1984$
+Specialized Foler in the Security Databas
+
+BOAR Cipher encryptions are accessible
+
+I've coded a boad decipher tool a long time ago
+
+operation_wallfly_results.pdf
+
+
+
+

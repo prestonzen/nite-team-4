@@ -1,0 +1,28 @@
+#Objective
+Find Might MEdia's Server Sub Domain
+
+#Entry Point
+mightmedia.net
+
+#OSINT
+www.mightmedia.net | UTD
+local.mightmedia.net | UTD
+us.mightmedia.net | UTD
+international.mightmedia.net | UTD
+
+#RECON
+
+#WEAPONIZE
+Against Human factor via SET (Humans are always going to be dependably incompetent)
+
+Run PDF
+
+Connected to company user
+
+--- Internal NET ---
+
+using a fuzzer inside of a network gets more results than externally!
+Found 2 additional subdomains
+
+media-srv01.mightmedia.net
+printers-srv02.mightmedia.net

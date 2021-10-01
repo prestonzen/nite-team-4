@@ -1,0 +1,60 @@
+Bastek is an Egyptian Cybersecurity company
+
+#Part 4
+
+Bastek Cybersecurity Network Company Profile http://media.niteteam4.com/Missions/NitroWinter/Unredacted%20Bastek%20Profile-193sdh46dgf-page-001.jpg
+
+Info:
+bastek.eg
+
+#RECON
+
+www.bastek.eg | UTD
+bio.bastek.eg | FingrTip (Z3r0 Day by AccessBio contact)
+
+Entity Relation Mapping (XKey Score)
+
+Raneem Saliba & AccessBio >> FingrTip Algorhythm
+
+AccessBio's Tech Doc: http://media.niteteam4.com/XKeyscore/Images/AccessBio/wyg0ft.png
+
+Target's Fingerprint ID: http://media.niteteam4.com/Missions/NitroWinter/SaraHajjarFingrTip-awh84ae6th4a.jpg
+
+Sara Hajjar: A3-A4-B2-C1-C2-D3-E2-E4-F1-G1-H1-H2
+
+Goes up to near the tip and bottom of the fingerprint
+ 
+File: FingrTip 4
+Mac: 5E:93:D9:14:93:9F
+Vendor: SONY
+Sales Rep: Etienne Maus
+
+Mobile Phone Intrusion Via MAC address
+
+Hotspot ON
+
+--- LAN ---
+
+Active Directory Accessible
+
+Refined Target, Erica Cooper & get access to client files
+/accounting/client_files
+
+Password Crack her account access to client files 
+
+#Weaponize
+Erika's hints derived from Sara's phone and her company files
+
+FName: Erika
+LName: Cooper
+Age: 30 (From guessing common ages for career people)
+
+Variables:
+Sara (Girlfriend)
+Hazem Taha Hussein (Fan of his Art)
+Pauline (Mother)
+Nostromo (Hotspot Name)
+Robyn (Fan of their music)
+
+Password: !luckystar79
+

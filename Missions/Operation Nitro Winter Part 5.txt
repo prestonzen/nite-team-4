@@ -1,0 +1,119 @@
+#Objectives
+1. Hack into CTO's LAN
+2. Investigate his files
+3. Access CTO's IoT network
+4. Add a stop to his smartcar to the drop point
+5. Find his license place
+6. Track and intercept his car
+
+#RECON
+http://media.niteteam4.com/Missions/NitroWinter/Sara-Tapan-RecoveredMsgs-asdha6e4wth4a.jpg
+
+Doc reveals a personal VPN connection from 99.34.62.148
+
+fingerprint (Nmap) 99.34.62.148 | Apache VULN
+
+CVE-2007-6258
+https://www.opencve.io/cve/CVE-2007-6258
+
+TCP/IP / Long Header / Alpha Exploit
+
+--- LAN ---
+
+shares:
+
+/cto/tlobeoteu/c$
+
+NT4: Says he found nothing useful and to run a basic attack anaginst it anyways.
+No wifi
+No ARP / LLMNR
+
+File Browser Loads
+
+Blind Bruteforce Password Attack:
+Rockyou
+EHarmony
+John
+
+All under 5 minutes.
+
+Weak password: NervesOfSteel
+
+XKS: Found admin link for his car through cross referenced documents
+http://media.niteteam4.com/XKeyscore/Images/Qebai-Tapan-Email-ash4a65h4a-1.png
+
+qebai.com/remote/v2x-fe135b019d
+
+Agent Dylan sent etraction point for parking lot. 
+
+Configuring the webapp to park target there.
+
+Dylan: Need to find his license plate.
+
+I can probably do that through the car company. 
+. . .
+Qebai doesn't seem vulnearable. 
+
+In the smart watch wifi points there is: PG-05.parking-seoul.kr
+
+subdomain fuzz: 
+
+www.parking-seoul.kr
+PG-01.parking-seoul.kr | UTD
+PG-02.parking-seoul.kr | UTD
+PG-03.parking-seoul.kr | UTD
+gates.parking-seoul.kr | UTD
+PG-04.parking-seoul.kr | UTD
+PG-05.parking-seoul.kr | UTD
+PG-06.parking-seoul.kr | UTD
+PG-07.parking-seoul.kr | UTD
+
+Checked online and doing OSINT will net an IP address
+osintscan parking-seoul.kr -s  google.com bing.com yahoo.com -d 1000
+Got: 40.30.232.57
+
+Now run a fingerprint against 40.30.232.57
+
+osintscan 40.30.232.57 -s  google.com bing.com yahoo.com -d 1000
+Got: 
+
+I got the IP of 40.30.232.87 from the in video chat of https://youtu.be/FXB5bOnfY5E?t=6824
+
+
+You're supposed to get this ip address by running 5000 results through google
+osintscan parking-seoul.kr -s  google -d 5000 (WTF)
+
+After that hell then you get this
+gates.parking-seoul.kr | 40.30.232.87
+
+osintscan 40.30.232.87 -s  google bing yahoo tbw -d 1000
+
+Yields
+01.ps-gatescan.kr
+
+Fuzz ps-gatescan.kr
+
+01.ps-gatescan.kr | UTD
+02.ps-gatescan.kr | UTD
+03.ps-gatescan.kr | UTD
+04.ps-gatescan.kr | UTD
+05.ps-gatescan.kr | VULN Apache 2.0
+06.ps-gatescan.kr | UTD
+07.ps-gatescan.kr | UTD
+
+#Weapon
+CVE-1025-2563
+TCP/IP, Custom SOAP Request
+
+--- LAN ---
+
+Dylan: Suggested MITM
+
+MITM'd the Gate Scanner
+
+His plate is 58L0323
+
+Dylan: Did a lookup and told me 37.5 LAT 126.9 LON
+
+Mission Complete
+
