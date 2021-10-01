@@ -1,0 +1,32 @@
+#Entry Point
+spartaintitans.com
+
+#Objective
+Domain Name
+
+#OSINT
+Search Engine Results:
+
+No Results
+
+#Recon
+##Fuzzing sub-domains | Nmap
+
+www.spartantitans.com | PATCHED
+join.spartantitans.com | PATCHED 
+login.spartantitans.com | P:80 TECH:Akamai VULN
+https://www.opencve.io/cve/CVE-2008-1106
+
+#Weaponize
+TCP/IP HTTP request with a spoofed Referer header
+
+RAT Remote Admin Tool: AfterMidnight (Meterpreter)
+
+#Exploit
+
+Fox Acid (Metasploit)
+
+--- Internal Network ---
+
+#Recon
+nmap
