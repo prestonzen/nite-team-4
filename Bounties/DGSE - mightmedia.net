@@ -24,5 +24,5 @@ Connected to company user
 using a fuzzer inside of a network gets more results than externally!
 Found 2 additional subdomains
 
-media-srv01.mightmedia.net
+media-srv01.mightmedia.net | This is the one they want
 printers-srv02.mightmedia.net

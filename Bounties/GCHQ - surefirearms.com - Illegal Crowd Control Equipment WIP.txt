@@ -1,0 +1,187 @@
+#Objective
+Find the name of who helped obtain illegal crowd control equipment
+
+#Entry
+surefirearms.com R&D
+
+#Recon
+Sfuzz t30 & OSINT:
+
+www.surefirearms.com | UTD
+demo.surefirearms.com | UTD
+administration.surefirearms.com | PHP-7.0.4 VULN
+
+#Weaponize
+CVE-2016-4071
+
+Format string vuln in ext/snmp/snmp.com
+remote code execution via format string specifiers: get call
+
+UDP
+Crafted SNMP packet
+
+--- LAN ---
+
+shares: 
+
+/admin/directory | AD
+
+RnD Users
+
+douglas.carvalho
+ RnD Direftor
+     Email: douglas.carvalho@surefirearms.com
+	 Notes: Learning Russian for NIGHTSHADE project on Mondays
+nicolai.lassen
+    Assistant
+	email: nicolai.lassen@surefirearms.com
+	Notes: Acting Director on Mondays
+projects.login
+    Login to RnD Database
+	email: NA
+	Notes: Login Link requests need to send a PDF from a Lead Researcher (Douglas Carvalho) to IT Support with Subject: RnD SERVER ACCESS
+	
+SET:
+	From Domain
+	
+--- LAN ---
+
+shares: 
+
+/admin/directory
+/rnd/projects/d$
+/rnd/techs
+
+
+/rnd/projects/d$
+
+projects.loginpass: _Bhagavad_Gita_1945 (I did this earlier)
+
+cd projects/shipping - https://prnt.sc/1udif3z
+
+Line Item 5 mentions Crowd Control Equipment - Tracking code 99373528282111 - has the weapons division cross sign (Epsilon 13-2)†
+Tracking Number says REVIEWED-Rick in filename
+
+
+
+New focus is on the weapons division.
+
+
+Subdomain fuzz:
+www.surefirearms.com
+demo.surefirearms.com
+rnd-ftp.surefirearms.com | CiscoVPNClient VULN
+project-docs.surefirearms.com
+login-sec.surefirearms.com | OracleAppServer VULN
+login-wd.surefirearms.com | CiscoVPNClient VULN
+login-rnd.surefirearms.com
+administration.surefirearms.com
+dfleet.surefirearms.com
+
+#Weaponize
+CVE-2015-7600
+UDP Content Spoofing
+
+--- LAN ---
+
+shares:
+/admin/directory
+/clients/bids
+/database/serial_numbers
+
+AD says Erle Borlaug manages the weapons DB
+
+Password Crack for /database/serial_numbers as USER: erle.borlaug
+john - ~1 Minute
+Rockyou
+eharmony
+Social Media
+
+Pass: k33pingthe_worldsafe
+
+File Brower Access: https://prnt.sc/1udl1x1
+
+That package was reassigned to Security
+
+login-sec.surefirearms.com | OracleAppServer VULN
+
+#weapon
+CVE-2001-1371
+TCP/IP
+Custom SOAP
+
+
+--- LAN ---
+
+Shares:
+
+/admin/directory
+/sec/agent_equipment
+/sec/devices
+/sec/op_wallfly_results
+
+Security Users:
+	Maddison Lawson
+		Security Director
+	Matilda Creswell
+	    Available Tuesdays 9pm - Noon
+		
+sfuzz NEW:
+
+crowdcontrol.surefirearms.com | UTD
+cybersec.surefirearms.com | UTD
+onsite-sec.surefirearms.com | UTD
+
+#Wifi
+
+EC:49:B2:3B:F1:A0 - Surefire SD WLAN
+
+Maddison Creswell's Phone (Assistant to the Security Director)
+	85:7C:07:0B:06:B7
+	LG
+--- Phone LAN ---
+
+Phone Email Notes:
+    user: matilda.creswell
+	pass: ${The only english word with three double consecuative lettesrs}1984$
+	
+Pass: $bookkeeper1984$
+
+shares:
+/sec/encryptions
+    http://media.niteteam4.com/Missions/Bounties/G7bounties/sfciphers-aej5e4ja6er5j4a6ej5.jpg
+/sec/op_wallfly_results
+
+Project Wallfly results PDF: http://media.niteteam4.com/Missions/Bounties/G7bounties/wallfly-eaje4j654j65s4yj.jpg
+
+It's encrypted
+
+I created a boar decrypter
+
+OCR tool to pull the text from the image: https://www.ocr2edit.com/
+
+Result: 
+
+SUREFIRE - LEVEL DELTA DOCUMENT - OPERATION WALLFLY - DO NOT DISTRIBUTE - DO NOT PRINT - SUREFIRE
+
+Countries - Description - Files
+
+United States - Mgbcribhs titdca hantnrnqdoa. Nrskiot yxolsxspkts. - RTOORtqlxwstuu.wmv - officialshirdhgprostitutescocaineconsumption sfusprostitute.wmv
+Canada - Ohchi Qqdodzig ccdcitdq dpik Ioowdvui isqvppio. KNIM. - RANASLLWIM.wmv - primeministeradulterywithiapanesemistressbdsm
+France - Ohchi Qtabwmdf dinqddbhd bpdstw rwss ugxydm Grxbrpm ynsxylxth. - RIDFCagik.jpg - primeministerreceivingbribesfromsecretchineseinvestors
+United Kingdom - Mgbeqnhht meqcnd sfb eh tasqcoim. Utbru atkpkldr. - RRCQCailziivd.wmv - officiavscomingoutofbyrdellodrunkbehavior
+Turkey - Vroqtfn tnrn ccqmblaceai uok hspkts cuwdooxxo. - RTDRLrrw.wmv - variousdrugconsumptionandpublicindecency
+Argentina - Mgbcsarmw rbafogr bage BCF dasqck. Ysgtnqbxs guccznImy. - RDEBCflbxnck.jpg - officialsmeetingwithciaagenthgriefcahkexcgdnged
+South Korea - Mgbcsarmw rlldsif vive ahantnr nq doa Mztmis. Kgwodpq zvolsxspkts. - RIVIVlwqzv.jpg - officialsmeetingwithmembersoftheyakuzacycaineconsumption
+Australia - Ohchi Qtaitcqf htbhdc gffo dsfbehu Ikioowf oofobdnso. Ppqdo aokpkldr. - RDQBSlefom.wav - primeministerracistrantagainstchineseofficialsdrunkbehavior
+Germany - Onhhq ra Osdgonqia’q Wtdekouop'b ynsosvp - RALRHsndzbyns.wmv - proofofpresidentsparkinsonsdisease - sfdeparkinson.wmv
+Brazil - Odfcteqld cok drco so hp kouo. Poev qogtkhspkts. - RDOKLgri.wmv - presidentsextapeatanorgydrugconsumption
+China - Mgbcsarmw rfsbtaf cqrb aqe-bcfd asqckysg. Tlbedftlc guccznImy. - RCEBCflnxnck.jpg - officialsmeetingwithfarleftradicals briefcaseexcgdnged
+European Union - Mgbcuiira vsrcn tfllc mhdhias. Qcdosltg tpesofzyu oeim. - RDDOFnewisv.jpg - officialsvisitshadybrothelpossiblepedophilering
+South Africa - Drco sohokhspkts. - RVDRLvrw.jpg - drugconsumption
+India - Mgbcqtagm bncdschrs q doaltcym crv xmc dfx. - RHDQBIsdqp.wmv - officialsattackingahomelessmanforfun
+Saudi Arabia - Mgbcsdqgm hhnqycqxd uq doapbqymso ipp appbt. - RQQXCcx.wmv - officialspartakinginhomosexualsexparty
+Indonesia - Mgbcqmbhg nqasuafw os vquncntfp mntqdoap mbsipkq tikld. Rtfimrxy nrdioh. - RFOADoltwydr.wmv - officialsengaginginpredatorybehaviortowardswomenpossiblyminors
+Russia - Mgbcsarmw rftgigb aodf fda-vfmaq doamztmi. Sagroftlc guccznlmy. - RTEBCflkxnck.jpg - officialsmeetingwithfarrightgfdicals. briefcase exchanged
+Italy - Mgbcqmbhg oeq|gqth nl fllqmg bcqfdasqcx fi m Sppabgxo ssdecxya’s qcdu. - RIDQBItdqp.wmv - riitattack.wmv
+Mexico - Cahantn rnanaicosoh. Ltmcafwo olsxspktsIn. Bsonwyt okpxkldr. - RPDRLhrw.wmv - cocaineconsumptionbdnnabisconsumptiondrunkenbehavior

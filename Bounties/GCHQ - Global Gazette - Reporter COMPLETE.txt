@@ -1,0 +1,46 @@
+#Objective
+find the name of the company the reporter was investigating
+
+#Entry
+Sebastian Bird @ globalgazette.com
+
+#Recon
+
+sfuzz & OSINT:
+www.globalgazette.com | UTD
+uk.globalgazette.com | UTD
+world.globalgazette.com | UTD
+contactus.globalgazette.com | ASPMX1.Google | MSExchange VULN
+m.globalgazette.com | UTD
+
+#Weaponize
+CVE-2014-0294
+https://nvd.nist.gov/vuln/detail/CVE-2014-0294
+https://www.exploit-db.com/search?cve=2014-0294
+Improper email content parsing. RCE VULN (AlphaXploit)via TCP/IP
+
+--- LAN ---
+
+shares:
+
+/srv1/members | AD
+/srv2/resources/printer1
+
+Info on Sebastian - https://prnt.sc/1udctj4
+
+User: s.bird
+
+Mecache link: gg-w6a2xb.mecachemws.com
+
+FName: Sebastian
+LName: Bird
+Age: 
+
+Password Crack Hints:
+peabody
+sam
+
+Password: !SetsMeFree
+
+Current Work File:
+"YOUR DNA IS FOR SALE" - Exposé about G-NOME

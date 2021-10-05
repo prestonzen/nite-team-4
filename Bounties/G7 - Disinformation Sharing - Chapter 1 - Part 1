@@ -1,0 +1,157 @@
+#Brief
+https://media.niteteam4.com/Missions/OpenWorld/Operation%20DisinformationSharing/part1-a54dh4a65dt4h6ad54h6a5had6354h.pdf
+
+G7 meets on Aug 25-27 2019
+
+Phase 1: 
+
+Check out Archive #77B352
+
+#Objective
+Find a tech device name in the XXXXXXX XXXXXXX XXX Format
+
+Research the company hosting the June FS-ISAC (North American)
+event, and find the name of their domain.
+
+TBW Archive:
+
+https://s3.amazonaws.com/cdn.blackwatchmen.com/archive/uploads/00D07B14-56D5-DCFC-B35E-3A8B0EE0C65D.pdf - South Korea
+https://s3.amazonaws.com/cdn.blackwatchmen.com/archive/uploads/E09AE872-6FDD-ACEA-2D0F-3F3DADD84274.pdf - Canada
+https://s3.amazonaws.com/cdn.blackwatchmen.com/archive/uploads/376FF1D3-D8DC-6C39-64D1-63476347F444.pdf - Sydney
+https://s3.amazonaws.com/cdn.blackwatchmen.com/archive/uploads/3C912360-0E92-B491-23BE-9467E6D30E68.pdf - Oslo
+https://s3.amazonaws.com/cdn.blackwatchmen.com/archive/uploads/661B4921-B065-3A46-9F5C-0ABBE8A63B9A.pdf - South Africa
+
+South africa and Oslo are out since their meetings take place in September
+
+The only meeting that will be in North America in June is Canada 
+
+Domains in the report are:
+    fsisac.com (F- SEA - SAC)
+        "**PLEASE NOTE** This is a complimentary event hosted by FS-ISAC and is for FS-ISAC members only"
+    formsite.com
+        I think this was the site that was used to make the form for the game and isn't the domain we need.
+
+#Recon
+osintscan fsisac.com -s  google bing yahoo tbw -d 1000
+sfuzz fsisac.com
+    www.fsisac.com | 184.87.179.112 | UTD
+    www2.fsisac.com | 35.174.150.87 | UTD
+    remote.fsisac.com | 14.252.68.14 | UTD
+    autodiscover.fsisac.com | 40.101.69.54 | UTD
+    premier.fsisac.com | 184.87.179.112 | UTD
+    portal.fsisac.com | 184.87.179.112 | UTD
+    sip.fsisac.com | 52.15.117.203 | UTD
+    secure.fsisac.com | 184.87.179.112 | UTD
+
+fingerprint
+
+#SE Method
+"If you are not an FS-ISAC member and are interested in attending, please contact workshops@fsisac.com"
+Spearfish workshops@fsisac.com didn't work
+No Dice
+
+#Path Piviot 
+
+The hosting venue for the event is located at:
+Vantage Venue
+150 King St. West
+16th Floor
+Toronto, ON MSH 1J9
+
+Google maps returns the domains vantagevenues.com
+
+#Recon
+
+sfuzz vantagevenues.com -t 60 && osintscan
+    www.vantagevenues.com
+    about.vantagevenues.com
+    contact.vantagevenues.com
+    meetings.vantagevenues.com
+    tech.vantagevenues.com
+    chatsupport.vantagevenues.com | ChitChat-v2.34 VULN
+
+#Weaponization
+CVE-2017-2931
+https://nvd.nist.gov/vuln/detail/CVE-2017-2931
+
+Delivery: TCP/IP
+Exploit: H.264 SIP Session Header
+
+--- LAN ---
+/main/employees/active_directory | AD Path | VULN ActiveDirectory
+/main/clients_list | NO FILESYSTEM
+/main/reservations | NO FILESYSTEM
+
+"Infiltrate the hosting company and recon their
+network for the reservation specifics of the FSISAC meeting. Search for mention of room names,
+equipment specs and other key details of the
+event. 
+
+Focus research on 
+    technicians for
+equipment setup
+    event managers for booking
+details
+    catering staff for room particulars
+
+Directories available
+    accounting
+    Food Services
+        Julia Rodriguez
+            Sous Chef
+        Kyle Pena
+            Head Chef
+    HR
+    IT
+        Adrienne Ruiz
+            Assistant IT specialist
+        Valery Rosas
+            IT Specialist
+            valeryrosas@vantagevenues.com
+    policies
+        Password Policy
+            RSA
+            Min 6 - Max 10 
+            REQ: Number
+    resources
+    Sales
+        Kevin Chu
+            Event Manager
+
+#NO WIFI
+#NO MITM
+
+#Weaponization
+Transport: SPX
+Exploit: Crafted SNMP Packet
+
+Assasin Rootkit (X Key Score)
+
+#Recon (X Key Score)
+
+http://media.niteteam4.com/Missions/OpenWorld/Operation%20DisinformationSharing/Vantage_Venues_Menu_Options-65jj6dfh65jfd65j.jpg
+
+HST # 163143837
+#Phase 3
+
+Combine the reservation specifics with information
+on the hosting company’s site to determine the
+name of a device most likely to be connected to
+the computer of a FS-ISAC representative.
+Once the name of the device is known, our assets
+on the ground will contact the hosting company,
+rent the equipment, and implant malware. As soon
+as the FS-ISAC representative uses the device, we
+will gain access to their credentials.
+
+Rooms Booked
+    https://vantagevenues.com/rooms/st-andrews-lounge/
+    https://vantagevenues.com/rooms/st-andrews-hall-s1-conference-room/
+
+Booking Confirmation Doc:
+    http://media.niteteam4.com/Missions/OpenWorld/Operation%20DisinformationSharing/Vantage_Venues_Booking_Confirmation-u66f5g465d4fj1.jpg
+Looking for a hardware name that fits this Format
+    XXXXXXX XXXXXXX XXX
+
+https://vantagevenues.com/av-rentals-toronto/
+    Polycom HDX9002 VCU
