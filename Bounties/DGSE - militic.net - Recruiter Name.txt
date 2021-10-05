@@ -1,0 +1,25 @@
+#Objective
+Find recruiting officer's name
+
+##Entry Point
+militic.net
+
+#OSINT & RECON
+www.militic.net
+mail.militic.net | PATCHED
+contracts.militic.net | P:81 Akamai VULN
+
+#Weaponize
+https://www.opencve.io/cve/CVE-2008-1106
+
+--- Internal Net ---
+
+Net Shares
+
+//militic-srv1/client_database
+//militic-srv2/contract_archive
+//militic-srv3/active_directory
+
+AD Access Success
+
+Chief Recruiter: Devon M. Houston
