@@ -1,0 +1,44 @@
+#Objective
+Find the transaction confirmation code 
+
+#Entry
+foundyou.nt4 | 230.198.47.4
+
+#RECON
+eye.foundyou.nt4
+youthoughtyourself.hidden.nt4
+
+2 services on the same port running BEHOLDER after running a fingerprint on the IP address
+
+NT4-6666 is the "CVE" number
+BEHOLDER not vulnerable
+
+#RECON
+sfuzz hidden.nt4 -t 120
+youarenot.hidden.nt4 | 188.42.126.231 | BEHOLDER UTD 
+
+#RECON
+osintscan 188.42.126.231 -s  google bing yahoo tbw -d 2000
+
+willyou.savethem.nt4 | 188.42.126.231 | UTD
+canyou.savethem.nt4 | 51.63.186.245 | BEHOLDER UTD
+youmust.playmygame.nt4 | 51.63.186.245 | BEHOLDER UTD
+youwill.playmygame.nt4 | 95.11.209.100 | UTD
+look.thrutheiris.nt4 | 95.11.209.100 | UTD
+pass.thrutheiris.nt4 | 120.234.219.8 | UTD
+connect2.f2zg6ev3n7tswp5d.onion | 120.234.219.8 | UTD
+
+Hydra f2zg6ev3n7tswp5d.onion (Works)
+
+Leads me to the Malocchio's Den password input page
+
+Wrong password prompts ~Nice try but you won't get me~
+
+password is "thrutheiris"
+
+Goes to a transaction board with a hitman order for 150 BTC 
+
+Transaction Date: 10-01-2018
+Description: H4ZE - HITMAN ORDER
+Transaction ID: 43A1N77ZC
+

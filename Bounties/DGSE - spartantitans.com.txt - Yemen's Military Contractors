@@ -2,7 +2,7 @@
 spartaintitans.com
 
 #Objective
-Domain Name
+Supplier URL
 
 #OSINT
 Search Engine Results:
@@ -30,3 +30,13 @@ Fox Acid (Metasploit)
 
 #Recon
 nmap
+
+MITM 192.168.1.87 Works
+URL Snapper
+https://www.amazon.com/Yemen-Dancing-Snakes-Victoria-Clark/dp/0300117019
+http://login.spartantitans.com/youraccount/card?i=UTF8&ref_=accnt_rec_signin&
+https://www.google.com/search?source=hp&ei=LdjAW4WFIu21ggeLq66YAw&q=yemen+restaurants+sana%27a
+https://secure.bankofamerica.com/login/sign-in/signOnV2Screen.go
+https://www.eya-arms.com/ap/signin?_encoding=UTF8
+
+Supplier: www.eya-arms.com
