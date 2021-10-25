@@ -1,0 +1,31 @@
+#Find the name of the project or operation for G-NOME's data sale
+    OSINT g-nome.org
+        www.g-nome.org
+            Up To Date
+        store.g-nome.org
+            Vulnerable
+                PayPal-v5.3
+                    SST 
+                    Alpha
+        ns1.g-nome.org
+            Up To Date
+    store.g-nome.org LAN
+        /main-srv01/staff Active Directory
+            Chloe.harrison 
+                Project Administrator
+                chloe.harrison@g-nome.org
+        DIG /main-srv01/staff
+            Vulnerable
+                SPX
+                Crafted SNMP
+                Assassin Rootkit
+            X-Keyscore Entities Added   
+    X-Keyscore  
+        Chloe Harrison + Peter Barber + G-NOME = RE: GRIM SALES REPORT
+            Chloe Harrison emails Peter the CEO that the company is going under if something isn't done soon. Peter says they should've charged more for the kits and suggests plan B.
+            He'll speak with Spencer about setting it up.
+        Spencer Cunningham + Peter Barber + G-NOME = "Job for you"
+            Peter instructs Spencer about a side job and that he needs to let Naomi the genealogist know about it which would lead to more bonuses at the end of the year. He reiterates that technically it isn't illegal although a papertrail should be discarded due to journalists.
+        Naomi Stevens + Spencer Cunningham + G-NOME = "Side Project"
+            Spencer emails Naomi with instructions to copy and print all the data that is processed then placed in a secred location at the bottom cabinet. Spencer will discretely send money online for this. 
+            Peter called it "Project Upward Spiral" 

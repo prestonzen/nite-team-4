@@ -1,0 +1,35 @@
+Objective
+    Find the city or reigon name where the aircraft exercises are taking place
+
+Entrypoint
+    surefirearms.com
+        R&D Department
+    TBW Archive #43946D
+        https://s3.amazonaws.com/cdn.blackwatchmen.com/archive/uploads/CED503D2-9294-B860-8356-F3DC2115B498.pdf
+    
+Social Engineering
+    Surefirearms.com 
+    PDF
+    Subject: RnD SERVER ACCESS
+    From: Nicolai Lassen
+
+--- LAN ---
+Project APEXGLARE
+    Test Barrage report
+        Remote aircraft with speeds up to Mach-7
+        Cyan Lights
+        Dates Tested:
+            2-14-2019 - Speed
+            3-3-2019 - Armament
+            4-20-2019 - Crash Test
+            5-11-2019 - Maneuvers
+            6-24-2019 - Stealth
+            7-15-2019 - TBD
+
+
+Analysis
+    Based on the report in SOUTH FRANKLIN, VERMONT the "blue" lights gave it away
+        Witness: C. O’Donnell
+            Witness had a hard time talking about her experience. Seems to be unable to believe what she saw. Described an object
+            similar to a jet fighter plane, of matte black color, with short wings, a horizontal propeller “similar to a drone” and
+            emitting a faint blue light. Mentioned the object made no sound and was going “faster than any plane she ever saw”.

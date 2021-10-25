@@ -1,0 +1,58 @@
+#Access the GRU personnel archive file drive
+    Inside localhost's files there is the login info for the GRU server
+        /secure-temp19478/files
+            User: temp19478
+            Pass: f9ZE_uVk
+        Notes
+            Mukd3n has other names:
+                Likhor4dk4
+                Arom1k
+                Tcheknob0g
+    GRU C2 Node
+        Filebrowser reveals a ton of files
+    
+#Download Mukd3n's personnel file
+    Download Tcheknob0g.pdf
+        FAY will translate the Russian into English
+
+#Upload a trojan bait file to Cryptnet
+    Checking the decrypted localhost file I get
+        http://media.niteteam4.com/Missions/RoyalGate/GRUBackgroundMukd3n-ajsojhgh4ahaeth5aeth53.jpg
+        KATERINA?! 
+        She has access to trade.cryptnet.auction
+            Node ID: F2N3-959P
+        She was assigned to attack Spiez Lab
+    Planting the bait on cryptnet.auction
+        SOFTCRASH has infected DNS & VHOST Mapping tools
+        Connect via Hydra
+            Upload the malware
+                Malware is located in localhost/home/niteteam4/Documents/INTEL/Russia/GRU
+                    Kinda annoying how the game doesn't tell you about these files and you have to search for them unnessesarily
+    Kateryna Downloads the file and her C2 node is added.
+
+#Find an organization or group related to the hacker
+    Ran a Deep Network Scan
+        Exposes Mukd3n's File Share /user/mukd3n/D$
+            Has Login Credentials
+                Password Crack Vector
+                    Target: /user/mukd3n/D$
+                    Username: mukd3n
+                        Prince Config:
+                            First Name: Katerina
+                            Last Name: Ivanova
+                            Age: 34 (32 on the old dossier)
+                            Variable 1: GRU
+                            Variable 2: Arom1k
+                            Variable 3: Likhor4dk4
+                            Variable 4: Tcheknob0g
+                            Variable 5: Spiez
+                        Wordlists:
+                            Rockyou - 19 seconds
+                            John - 3 seconds
+                            eHarmony - 7 seconds
+                    Password: -ruptur3d-
+        Exposes 251.95.251.170 on port 4343 With a Vulnerable TOR-0.2.1.30 service
+            No known vulnerabilities in the exploit DB
+    Login to fileserver
+        Only 1 accessable file  /Users/Mukd3n/Documents/Misc/SIGIL/PUREMORNING.doc
+            Seems that Mukd3n works for SIGIL with their TOP SECRET clearance

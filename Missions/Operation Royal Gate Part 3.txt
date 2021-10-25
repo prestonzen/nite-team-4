@@ -1,0 +1,77 @@
+Objective
+    Find Rainvest in the Naicho Inten Agency's network
+
+#Connect into Naicho's Network
+    C2 Server Access added by NT4
+
+#Find a connecting thread between Bixon and Naicho
+Andromeda
+    Deep Network Scan
+        Shows AD Filesystem
+    AD Scanner is corrupted by Softcrash
+        Override and added records to X-Keyscore
+            Kaneko Tetsuya (Head of Project Acquisition)
+            Shigeru Inoue (Head of Finance)
+            Noboru Kunai (Lead Economic Analyst)
+            Shinichi Nishimura (Deputy Director of Finance)
+
+X-Keyscore  
+    Naicho+ Bixon Software + Kaneko Tetsuya = Contract Renewal NAICHO Bixon
+        http://media.niteteam4.com/Missions/RoyalGate/BIXON-NAICHO-Contract-Renewal-aehah4a6e5t4h.jpg
+        Nets multiple names and entities for X-Keyscore
+            Takaki Suki is the Project Manager of the RAINVEST Initiative
+            Isao Hakuseki - Project Manager of RAINVEST for Bixon
+            Chiura Fumika - Lead Technical Engineer for Bixon
+            Rai Takechi - Government Liaison @ Bixon
+            Signing Date: Friday February 8th 2019`
+    Takaki Suki + Isao Hakuseki + Bixon Software = RE: Contract Extension Agreement
+        Mentions signing a contract at Suki's headquarters as well as preperations for a press release. Sent from a Makadon Android phone
+    
+Aircrack-ng
+    Two Wi-fi Networks. Only 1 Makadon
+        MAC: 98:92:63:A1:5D:22
+        Vendor: Makadon
+        Hotspot Network to access Bixon. VPN connection of the phone allows for connetion into the Bixon private network.
+
+#Find more information on RAINVEST
+Mobile phone   
+    Calls Encrypted
+        OUT Mano Araki
+        IN Allex W Burton
+        OUT Akana Kawano
+        IN Shouko Hatsutori
+    Contacts   
+        Allen W Burton - Bixon
+        Hoke Mizuma - Bixon
+        Takaki Suki - NAICHO
+
+WMI Scan
+    /erp/administration
+        ERP attack Verboten Vector
+            Verboten was removed due to SOFTCRASH
+    /main/administration/employees
+        AD vector
+            X-Keyscore Entities added
+                Ayumi Ozaki (Head of Finance)
+                Mano Araki ((Head of Research))
+                Akana Kawano (Head of Marketing)
+                Hoka Mizuma (Head of Public Relations) 
+                Shouko Hatsutori (Head of HR)
+    /res/printers/Epson_WF
+
+X-Keyscore
+    In the previous email they mention of doina a press release
+        NAICHO + Bixon + Hoka Mizuma = RAINVEST Press release
+            Adds a new entity, Allen W Burton
+        
+Phone Intrusion Module becomes Infected
+
+Run an attack against the Mobile Device via andromeda
+    SMS dumps from contact "Mukden"
+        OUT Mukd3n, do you have the updated RAINVEST build? I tried to get the new algorithm for you, but they never gave me access. 
+        IN Don't worry, I wouldn't be much of a hacker if I couldn't get that from their servers. 
+        OUT Great! The NAICHO advisors are coming to check in on the project this Friday and I need to show that things are progressing
+        IN I'm sending over the zip now. Along with some key talking points. Follow the script and you'll be fine
+        OUT thank you
+    Analysis
+        There is a hacker involved that is getting files and creating a script for the recipient to read to NAICHO named Mukd3n

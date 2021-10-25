@@ -1,0 +1,15 @@
+#Objective
+    Download RAINVEST V1.1 or higher
+
+#Entry
+    In localhost's NT4 Royal Gate folder there is a brief report with server access credentials
+    C2 Server has Mossad VPN connection
+
+Need to WMI Scan the system
+Softcrash caused a corruption
+
+Use andromeda to clean and bypass Softcrash
+
+Rainvest is located in the backup server
+
+Download and complete mission

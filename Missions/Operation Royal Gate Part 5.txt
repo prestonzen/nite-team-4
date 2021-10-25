@@ -1,0 +1,95 @@
+Briefing:
+    APT ICM32 & SIGIL are working together.
+
+SOFTCRASH infected the exploit DB, Aircrack & Password Attack Modules.
+
+#Review NSA's Dossier on ICM32
+    http://media.niteteam4.com/Missions/RoyalGate/NSA_ICM32_Coms_Doc-a65h4ad65h4.jpg
+    Message communications via public websites
+        dialodge-gaming.net
+            Healer nerfs = Ready | We are go
+            Boss in crags is too OP = More planning required | Operation Halted
+            Writing took me by surprise = Agent Compromised | All Ties Cut
+            People complain even if they had muffins = Possible target | Send Intel
+
+#Infiltrate ICM32's Network
+    Public Network Scan
+        www.dialodge-gaming.net
+            Up To Date
+        chat.dialodge-gaming.net
+            Up To Date
+    Social Engineering
+        No specific method required. I sent an email as a password lockout request as Smasher7000
+    LAN
+        WMI Scan
+            Nothing
+        MITM
+            LLMNR pops up hostnames
+            Packet Sniffer
+                147.182.71.64
+                    60 NewMsg by YEETSY: 'CHEK OUT MY EPIC GAMING CHANEL AT bits.ty/as5s1s'
+                91.201.91.100 
+                    60 NewMsg by H3LLfyre: 'Hail fellow combatant! Are you ready...to get NEEEERRRFED?'
+                52.78.171.10
+                    60 NewMsg by Anon#1801: 'enuf with the nerfs, were r my buffs??? Total slap in the face every patch'
+                60 NewMsg by Anon#1801: 'enuf with the nerfs, were r my buffs??? Total slap in the face every patch'
+                77.112.46.162
+                    60 NewMsg by NinerLock: '@Anon#1801: I bet if the game gave you fresh muffins out of your computer every day you'd still complain'
+                187.191.188.2    
+                    60 NewMsg by Anon#1799: 'I dunno about 1801 but for me, it would depend on the type of muffins'
+                251.95.251.170
+                    60 NewMsg by Anon#1847: 'The writing in this game really took me by surprise!'
+                67.125.70.42
+                    60 NewMsg by Anon#1850: 'Same. I especially like the main character's dialogue'
+        Follow the cut ties message as it's exactly the same as the reference
+            67.125.70.42
+                Public Scan
+                    gulp.com | 172.49.85.64
+                        contact.gulp.com
+                            172.49.85.64
+                        reviews.gulp.com
+                            172.49.85.64
+                        10918.gulp.com
+                            67.125.70.42
+                        11281.gulp.com
+                            182.115.160.243
+                                11281.gulp.com
+                                21201.rainforest.com
+                                    rainforest.com
+                                        www.rainforest.com
+                                            58.22.9.241
+                                        mobile.rainforest.com
+                                            58.22.9.241
+                                        support.rainforest.com
+                                            58.22.9.241
+                                        cloud.rainforest.com
+                                            58.22.9.241
+                                        21201.rainforest.com
+                                            182.115.160.243
+                                        chat.rainforest.com
+                                            58.22.9.241
+                                        11875.rainforest.com
+                                            121.67.98.63
+                                                11875.rainforest.com
+                                                31518.hop-inn.com
+                                                    hop-inn.com
+                                                        www.hop-inn.com
+                                                            20.78.89.234
+                                                        reviews.hop-inn.com
+                                                            20.78.89.234
+                                                        media.hop-inn.com
+                                                            20.78.89.234
+                                                        31518.hop-inn.com
+                                                            121.67.98.63
+                                                        12321.hop-inn.com
+                                                            37.67.18.212
+                                                                Vulnerable
+                                                                    Port 9595
+                                                                    Apache-2.2
+                                                                        TCP/IP
+                                                                        Alpha Exploit Kit
+
+#Find a link between ICM32 and SOFTCRASH
+    ICM32 - Unkown's PC LAN
+    LLMNR Posioning
+        There is an agent list that is planned to be exhanged from S.CRASH and ICM32

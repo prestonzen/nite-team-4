@@ -1,0 +1,23 @@
+Started at Maddison Creswell's Phone (Assistant to the Security Director)
+	85:7C:07:0B:06:B7
+	LG
+--- Phone LAN ---
+
+CiscoVPNClient
+    UDP
+    Content Spoofing
+
+Connected into login-wd.surefirearms.com
+WMI Scanner
+    /clients/bids - Thursdays at 1600 (Wifi Hint)
+
+Wifi
+    37:EA:54:91:27:BD 
+        Thursday at 1600
+            Burner Phone
+            MAC: B0:AE:6F:C3:76:1E
+            iOS
+Mobile Phone
+    Note to call Surefire Group for confirmation
+    Call Logs
+        Bundeswehr was called right after Surefire Group

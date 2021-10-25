@@ -1,0 +1,23 @@
+#Objective
+Infiltrate the network and remove all traces
+
+#Entry
+File in localhost
+http://media.niteteam4.com/Missions/NitroWinter/HSC_Job_Board_dossier-14r18t24wr84248t4wg.jpg
+Hydra into system.hsconsulting.de
+
+Weaponization
+Social Engineering
+
+#New Objective from HSC Board 
+Bixonbanking.com
+
+#Recon
+sfuzzer -t60
+    www.bixonbanking.com
+    login.bixonbanking.com
+        Vulnerable Apache 2.0 to TCP/IP Custom SOAP Request
+    careers.bixonbanking.com
+        UTD
+    client.bixonbanking.com
+        UTD
